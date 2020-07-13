@@ -1,14 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #484E55;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
   color: #ffffff;
 }
+
+header {
+  background-color: #33AB8E;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+  box-shadow: 4px 4px 2px 2px rgba(50, 50, 50, 0.75);
+  box-shadow: inset -2px -3px 3px 0px rgba(50, 50, 50, 0.75);
+  position: fixed;
+  width: 100%;
+}
+
+selector {
+  margin: 0 auto;
+  /* No spacing to top and bottom and auto spacing to left and right */
+  position: relative;
+  float: right;
+  width: 80%;
+  float: right;
+}
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
+
 h1 {
   font-size: 2.75em;
   font-weight: 700;
@@ -23,6 +52,7 @@ h3 {
   font-size: 1.75em;
   font-weight: 400;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 400;
@@ -30,51 +60,117 @@ h4 {
 
 /* custom classes to help  */
 .makeUppercase {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
+
 .makeLowercase {
-	text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 .underlineMe {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 img {
-  width: 30%;
+  width: 50%;
 }
 
 a {
-  color:#ffffff
+  color: #ffffff
 }
+
 a:hover {
   color: #77FDC8;
 }
+
 a:focus {
   color: #ffffff;
   text-decoration: underline;
 }
+
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #33AB8E;
-  color: #FFFFFF; /* needed to override the default link color */
+  color: #FFFFFF;
+  /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #77FDC8; /* width of the border, type, color */
+  border-bottom: 2px solid #77FDC8;
+  /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+
 .button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
+
 .button.contact {
   background-color: transparent;
   color: #33AB8E;
   text-transform: uppercase;
   border: 2px solid #33AB8E;
 }
+
 .button.contact:hover {
   background-color: #33AB8E;
   color: #ffffff;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+
+#hero h1 {
+  text-align: center;
+  /* Centers text */
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li>a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+#hero {
+  background-color: #33AB8E;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+main {
+  padding-top: 133px;
 }
