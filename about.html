@@ -17,7 +17,7 @@
   <title>Valentina Wickham, UX Designer based in California</title>
 </head>
 
-<body>
+<body id="about">
   <header>
     <div class="container">
       <svg logo xmlns="http://www.w3.org/2000/svg" width="332" height="86" viewBox="0 0 332 86">
@@ -69,16 +69,19 @@
           </span>
         </p>
         <picture>
-          <source srcset="img/profile/profilepic.jpg" media="(max-width:767px)">
-          <img src="img/profile/profilepic.2.jpg" alt="My Image">
+          <source class="two" srcset="img/profile/profilepic.jpg" media="(max-width:767px)">
+          <img class="two"src="img/profile/profilepic.2.jpg" alt="My Image">
         </picture>
       </div><!-- end first column -->
     </div>
-    <div>
+
       <!-- open second column (used for text) -->
+      <div class="container">
+    <div class="row">
+      <div class="column col-md-6 col-lg-7">
       <h1>Skills&Tools</h3>
         <p>
-          Relevant Skills:
+        <h3>Relevant Skills:</h3>
           <li>User Centered Design</li>
           <li>UX Research</li>
           <li>Wireframing</li>
@@ -90,10 +93,13 @@
           <li>Competitive Analysis</li>
           <li>Emotional and Visual Design</li>
         </p>
+      </div>
         <br>
         <span>
+    <div class="row">
+      <div class="column col-md-6 col-lg-5">
           <p>
-            Tools I use:
+          <h3>Tools I use:</h3>
             <li>Figma</li>
             <li>Adobe XD</li>
             <li>InVision</li>
@@ -102,12 +108,10 @@
             <li>Marvel App</li>
             <li>Sketch App</li>
             <li>Usability Hub</li>
-        </span>
+            <li>Optimal Workshop</li>
         </p><!-- end paragraph -->
     </div><!-- end second column -->
-    </div><!-- end row that holds (2) columns for project -->
-
-  </main>
+</main>
   <footer id="footer">
     <div class="container">
       <h2>Get in Touch</h2>
@@ -132,12 +136,6 @@
                 <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
               </g>
             </g>
-            <g />
-            <g />
-            <g />
-            <g />
-            <g />
-            <g />
           </svg>
         </a>
         <br>

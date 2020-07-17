@@ -5,18 +5,16 @@
 body {
   background-color: #484E55;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  /* Sets the font size to 16px */
+  font-size: 18px;
   font-weight: 300;
-  /* Sets the font weight to 300 */
   line-height: 1.6;
-  /* Sets the line-height to 1.6 * the font-size */
   color: #ffffff;
 }
 
 header {
   background-color: #33AB8E;
-  padding: 10px;
+  padding: 10px 0;
+  font-weight: bold;
   text-align: center;
   box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
   box-shadow: 4px 4px 2px 2px rgba(50, 50, 50, 0.75);
@@ -72,7 +70,17 @@ h4 {
 }
 
 img {
+  width: 100%;
+}
+
+img.one {
+  height: 50%;
   width: 50%;
+}
+
+img.two {
+  height: 30%;
+  width: 30%;
 }
 
 a {
@@ -90,21 +98,19 @@ a:focus {
 
 .button {
   display: inline-block;
-  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #33AB8E;
   color: #FFFFFF;
-  /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
+  text-decoration: none;
   border-radius: 3px;
   border-bottom: 2px solid #77FDC8;
-  /* width of the border, type, color */
   transition: 0.2s opacity;
+  transition-duration: 0.2s;
 }
 
 .button:hover {
   opacity: 0.8;
-  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 
@@ -146,11 +152,20 @@ a:focus {
 
 .logo {
   max-width: 250px;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 2.5em;
 }
+
+nav {
+    width: auto;
+    float: right;
+  }
 
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav>ul>li {
@@ -166,11 +181,112 @@ nav>ul>li>a {
 
 #hero {
   background-color: #33AB8E;
-  padding: 20px 0;
+  padding: 60px 0;
   display: inline-block;
   width: 100%;
 }
 
-main {
-  padding-top: 133px;
+#hero span {
+  display: block;
+}
+
+#about h3 {
+  margin-top: 0;
+}
+
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 10px 0 4px;
+  }
+
+  main {
+    padding-top: 56px;
+  }
+
+  nav {
+    width: auto;
+    float: right
+    margin-top: 16px;
+  }
+
+  #hero span {
+    display: block;
+  }
+
+  .col-md-6 {
+  width: 50%;
+}
+
+  [class*="col-"] {
+  float: left;
+  padding: 20px;
+}
+
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  #about h3 {
+    margin-top: 0;
+  }
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {
 }
