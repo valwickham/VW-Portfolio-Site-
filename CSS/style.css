@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #33AB8E;
+  background-color: #16BBD5;
   padding: 10px 0;
   font-weight: bold;
   text-align: center;
@@ -21,6 +21,10 @@ header {
   box-shadow: inset -2px -3px 3px 0px rgba(50, 50, 50, 0.75);
   position: fixed;
   width: 100%;
+}
+
+main {
+  margin-top: auto;
 }
 
 selector {
@@ -136,13 +140,13 @@ div.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 
 .button {
   display: inline-block;
-  background-color: #33AB8E;
+  background-color: #16BBD5;
   color: #FFFFFF;
   font-weight: 400;
   padding: 10px;
   text-decoration: none;
   border-radius: 3px;
-  border-bottom: 2px solid #77FDC8;
+  border-bottom: 2px solid #000000;
   transition: 0.2s opacity;
   transition-duration: 0.2s;
 }
@@ -154,19 +158,43 @@ div.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 
 .button.contact {
   background-color: transparent;
-  color: #33AB8E;
+  color: #16BBD5;
   text-transform: uppercase;
-  border: 2px solid #33AB8E;
+  border: 2px solid #16BBD5;
 }
 
 .button.contact:hover {
-  background-color: #33AB8E;
+  background-color: #16BBD5;
   color: #ffffff;
 }
 
+.button.readmore {
+  background-color: transparent;
+  color: #16BBD5;
+  text-transform: uppercase;
+  border: 2px solid #16BBD5;
+}
+
+.button.readmore:hover {
+  background-color: #16BBD5;
+  color: #ffffff;
+}
+
+.button.downloadCV {
+  background-color: transparent;
+  color: #16BBD5;
+  text-transform: none;
+  border: 2px solid #16BBD5;
+  position: static;
+}
+
+.button.downloadCV:hover {
+  background-color: #16BBD5;
+  color: #ffffff;
+}
 /* Layout styling */
 .container {
-  padding: 0 15px;
+  padding: 0px 15px;
 }
 
 .row {
@@ -182,6 +210,12 @@ div.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 #hero h1 {
   text-align: center;
   /* Centers text */
+}
+
+#mystory .container {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+  margin: 25px 0;
 }
 
 .center {
@@ -218,8 +252,8 @@ nav>ul>div>li>a {
 }
 
 #hero {
-  background-color: #33AB8E;
-  padding: 60px 0;
+  background-color: #16BBD5;
+  padding: 40px 0;
   display: inline-block;
   width: 100%;
 }
@@ -230,6 +264,47 @@ nav>ul>div>li>a {
 
 #about h3 {
   margin-top: 0;
+}
+
+#mystory .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+
+#telephone {/* id selector */
+  color: #16BBD5;
+}
+
+.telephone {/* class selector */
+  color: #16BBD5;
+}
+
+#telephone:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#telephone:focus {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#skype {/* id selector */
+  color: #16BBD5;
+}
+
+.skype {/* class selector */
+  color: #16BBD5;
+}
+
+#skype:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#skype:focus {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 @keyframes color-change {
