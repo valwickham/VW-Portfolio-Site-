@@ -170,15 +170,20 @@ div.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 }
 
 .button.readmore {
-  background-color: transparent;
-  color: #16BBD5;
+  background-color: #16BBD5;
+  color: #FFFFFF;
   text-transform: uppercase;
   border: 2px solid #16BBD5;
+  border-bottom: 2px solid #000000;
+  position: static;
 }
 
 .button.readmore:hover {
   background-color: #16BBD5;
   color: #ffffff;
+  border: 2px solid #16BBD5;
+  border-bottom: 2px solid #000000;
+  position: static;
 }
 
 .button.downloadCV {
