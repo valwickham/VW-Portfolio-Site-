@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
   <title>Valentina Wickham, UX Designer based in California</title>
 </head>
@@ -20,23 +20,13 @@
 <body id="about">
   <header>
     <div class="container">
-      <svg xmlns="http://www.w3.org/2000/svg" width="322" height="89" viewBox="0 0 322 89">
-    <g id="Group_1" data-name="Group 1" transform="translate(-2637 -223.562)">
-      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(2637 223.562)" fill="#393e44" stroke="#2a2d2e" stroke-width="10">
-        <rect width="237" height="89" stroke="none"/>
-        <rect x="5" y="5" width="227" height="79" fill="none"/>
-      </g>
-      <text id="Valentina_Wickham" data-name="Valentina Wickham" transform="translate(2654.217 278.867)" fill="#fff" stroke="#fff" stroke-width="1" font-size="34" font-family="AdobeHandwriting-Tiffany, Adobe Handwriting Tiffany"><tspan x="0" y="0">V</tspan><tspan y="0" font-size="23">alentina </tspan><tspan y="0">W</tspan><tspan y="0" font-size="23">ickham</tspan></text>
-      <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(2870 223.562)" fill="#fff" stroke="#393e44" stroke-width="10">
-        <rect width="89" height="89" stroke="none"/>
-        <rect x="5" y="5" width="79" height="79" fill="none"/>
-      </g>
-      <text id="UX_UI" data-name="UX/UI" transform="translate(2887.778 274.519)" fill="#2a2d2e" stroke="#2a2d2e" stroke-width="1" font-size="23" font-family="AdobeHandwriting-Tiffany, Adobe Handwriting Tiffany"><tspan x="0" y="0">UX/UI</tspan></text>
-    </g>
-  </svg>
+      <picture>
+        <source class="logo" srcset="img/Group1.png" media="(max-width:767px)">
+        <img class="logo" src="img/Group1.png" alt="logo">
       <nav>
         <ul>
           <div class="container topBotomBordersOut">
+            <li><a href="index.html">Home</a></li>
             <li><a href="getinked.html">Work</a></li>
             <li><a href="about.html" target="_self">About</a></li>
             <li><a href="#footer">Contact</a></li>
@@ -46,83 +36,87 @@
   </header>
 
   <main>
-      <div id="mystory" class="container">
-        <h1>
-          My Story
-        </h1>
-        <p>
-          I have recently achieved my certification in UX Design Immersion from CareerFoundry’s online course, and I am now gaining experience in building websites with the Frontend Development specialization.
-
-          I have a Bachelor of Science in Kinesiology; therefore my background isn’t related to design, but I have always had a passion for art due to my cultural background. In my previous career as personal trainer, I put a lot dedication into
-          understanding my clients’ goals and their preferences, so that we could work together to achieve a greater level of self-confidence and also happiness within themselves and their performance. I worked with passion to make sure that my
-          clients would feel constantly supported and taken care of.
-
-          I find myself now in the challenging process of changing careers, because I wish to be able to provide enough time, dedication and support to my family. In fact, with my previous position I would spend very long hours training clients while
-          being gone from before sunrising till after sunset most days of the week. But now that I have created my own family, I feel like I can no longer live that lifestyle.
-
-          If you want to talk and get to know me more, feel free to contact me!
-        </p>
-        <p>
-          <br>
-          <span>
-            <a href="files/cv.pdf" target="_blank" class="button downloadCV">Download my CV</a>
-          </span>
-        </p>
-        <picture>
-          <source class="two" srcset="img/profile/profilepic.jpg" media="(max-width:767px)">
-          <img class="two" src="img/profile/profilepic.2.jpg" alt="My Image">
-        </picture>
-      </div><!-- end first column -->
-    </div>
-
-    <!-- open second column (used for text) -->
-    <div class="container">
-      <div class="row">
-        <div class="column col-md-6 col-lg-7">
-          <h1>Skills&Tools</h3>
+    <div id="mystory">
+      <div class="container">
+        <h1>My Story</h1>
+        <div class="row">
+          <div class="column col-md-6 col-lg-7">
+            <picture>
+              <source class="two" srcset="img/profile/profilepic.jpg" media="(max-width:767px)">
+              <img class="two" src="img/profile/profilepic.2.jpg" alt="My Image">
+            </picture>
+          </div>
+          <div class="column col-md-6 col-lg-5">
             <p>
-            <h3>Relevant Skills:</h3>
-            <li>User Centered Design</li>
-            <li>UX Research</li>
-            <li>Wireframing</li>
-            <li>Prototyping</li>
-            <li>Information Architecture</li>
-            <li>Usability Testing</li>
-            <li>Presentation Design</li>
-            <li>Persona Creation</li>
-            <li>Competitive Analysis</li>
-            <li>Emotional and Visual Design</li>
+              I have recently achieved my certification in UX Design Immersion from CareerFoundry’s online course, and I am now gaining experience in building websites with the Frontend Development specialization.
+
+              I have a Bachelor of Science in Kinesiology; therefore my background isn’t related to design, but I have always had a passion for art due to my cultural background. In my previous career as personal trainer, I put a lot dedication into
+              understanding my clients’ goals and their preferences, so that we could work together to achieve a greater level of self-confidence and also happiness within themselves and their performance. I worked with passion to make sure that my
+              clients would feel constantly supported and taken care of.
+
+              I find myself now in the challenging process of changing careers, because I wish to be able to provide enough time, dedication and support to my family. In fact, with my previous position I would spend very long hours training clients
+              while
+              being gone from before sunrising till after sunset most days of the week. But now that I have created my own family, I feel like I can no longer live that lifestyle.
+
+              If you want to talk and get to know me more, feel free to contact me!
             </p>
+            <p>
+              <br>
+              <span>
+                <a href="files/cv.pdf" target="_blank" class="button downloadCV">Download my CV</a>
+              </span>
+            </p>
+          </div><!-- end first column -->
         </div>
-        <br>
-        <span>
-          <div class="row">
-            <div class="column col-md-6 col-lg-5">
-              <p>
-              <h3>Tools I use:</h3>
-              <li>Figma</li>
-              <li>Adobe XD</li>
-              <li>InVision</li>
-              <li>Microsoft Office</li>
-              <li>Balsamiq</li>
-              <li>Marvel App</li>
-              <li>Sketch App</li>
-              <li>Usability Hub</li>
-              <li>Optimal Workshop</li>
-              </p><!-- end paragraph -->
-            </div><!-- end second column -->
+
+        <!-- open second column (used for text) -->
+        <div class="container">
+          <h1>Skills&Tools</h3>
+            <div class="row">
+              <div class="column col-md-6 col-lg-7">
+                <p>
+                <h3>Relevant Skills:</h3>
+                <li>User Centered Design</li>
+                <li>UX Research</li>
+                <li>Wireframing</li>
+                <li>Prototyping</li>
+                <li>Information Architecture</li>
+                <li>Usability Testing</li>
+                <li>Presentation Design</li>
+                <li>Persona Creation</li>
+                <li>Competitive Analysis</li>
+                <li>Emotional and Visual Design</li>
+                </p>
+              </div>
+              <div class="column col-md-6 col-lg-5">
+                <p>
+                <h3>Tools I use:</h3>
+                <li>Figma</li>
+                <li>Adobe XD</li>
+                <li>InVision</li>
+                <li>Microsoft Office</li>
+                <li>Balsamiq</li>
+                <li>Marvel App</li>
+                <li>Sketch App</li>
+                <li>Usability Hub</li>
+                <li>Optimal Workshop</li>
+                </p><!-- end paragraph -->
+              </div><!-- end second column -->
+            </div>
   </main>
-  <footer id="footer">
+  <footer id="footer" align="center">
     <div class="container">
       <h2>Get in Touch</h2>
       <p>
-        Do you like my work and want to discuss opportunities? Please get in touch. Call: <a href="tel:+19523005133" class="telephone" id="telephone">+1 952-300-5133</a> or Skype me at <a href="skype:valentina.wickham" class="skype" id="skype">valentina.wickham</a>. Prefer sending an email?
+        Do you like my work and want to discuss opportunities? Please get in touch. Call: <a href="tel:+19523005133" class="telephone" id="telephone">+1 952-300-5133</a> or Skype me at <a href="skype:valentina.wickham" class="skype"
+          id="skype">valentina.wickham</a>. Prefer sending an email?
       </p>
       <div>
         <a href="mailto:valentina.wickham@gmail.com" class="button contact">Email me</a>
       </div>
       <br>
-      <div>
+      <ul class="social_icons">
+        <li class="social">
         <!--Social Media Layout and Placeholders-->
         <a href="https://www.linkedin.com/in/valentina-pisoni-wickham/" target="_blank">
           <?xml version="1.0" ?>
@@ -136,9 +130,15 @@
                 <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
               </g>
             </g>
+            <g />
+            <g />
+            <g />
+            <g />
+            <g />
+            <g />
           </svg>
-        </a>
-        <br>
+        </a></li>
+        <li class="social">
         <a href="https://www.behance.net/valentinawickham" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" style="overflow:visible;enable-background:new 0 0 32 32" viewBox="0 0 32 32" width="32" xml:space="preserve">
             <g>
@@ -152,8 +152,9 @@
               </g>
             </g>
           </svg>
-        </a>
-      </div>
+        </a></li>
+      </ul>
+    </div>
       <p>Copyright Valentina Wickham 2020</p>
     </div>
   </footer>
