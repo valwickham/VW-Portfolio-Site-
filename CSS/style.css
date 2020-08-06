@@ -14,17 +14,13 @@ body {
 header {
   background-color: #16BBD5;
   padding-bottom: 30px;
+  padding: 10px 0 4px;
   font-weight: bold;
-  text-align: center;
   box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
   box-shadow: 4px 4px 2px 2px rgba(50, 50, 50, 0.75);
   box-shadow: inset -2px -3px 3px 0px rgba(50, 50, 50, 0.75);
   position: fixed;
   width: 100%;
-}
-
-main {
-  margin-top: auto;
 }
 
 selector {
@@ -43,7 +39,7 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 2.75em;
   font-weight: 700;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 h2 {
@@ -223,18 +219,20 @@ div.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 #mystory .container {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
-  padding-top: 5px;
+  padding-top: 20px;
 }
 
 #getinked {
-  padding-top: 5px;
+  padding-top: 20px;
 }
+
 .center {
   text-align: center;
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
+  min-width: 250px;
   font-size: 1.5em;
   font-weight: 600;
   line-height: 2.5em;
@@ -253,10 +251,6 @@ nav>ul {
   margin: 0;
 }
 
-nav>ul>div>li {
-  display: inline-block;
-}
-
 nav>ul>div>li>a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -264,16 +258,50 @@ nav>ul>div>li>a {
   color: #FFFFFF;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
+
 ul.social_icons, li.social {
-  text-decoration:none;
-    display:inline-block;
-    position: relative;
-    list-style: none;
-    float:center;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  list-style: none;
+  float: center;
 }
 
 ul.social_icons>li.social {
-  display:inline-block;
+  display: inline-block;
   padding: 10px;
 }
 
@@ -394,19 +422,43 @@ ul.social_icons>li.social {
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
   header {
     text-align: unset;
-    padding: 10px 0 4px;
+    padding: 10px 0 13px;
   }
 
   main {
-    padding-top: 56px;
+    padding-top: 70px;
   }
 
   nav {
     width: auto;
-    float: right margin-top: 16px;
+    float: right;
+    margin-top: 4px;
+  }
+
+  nav>ul {
+    margin: 1em 0;
+  }
+
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  nav>ul>div>li>a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
   #hero span {
@@ -430,6 +482,11 @@ Medium devices (640px and larger)
 
   #about h3 {
     margin-top: 0;
+  }
+
+  div.container {
+    margin: 0 auto;
+    padding top: 40px;
   }
 
   /* ==============================
