@@ -258,6 +258,10 @@ nav>ul>div>li>a {
   color: #FFFFFF;
 }
 
+.navtoggle.responsive li {
+  display: block;
+}
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
@@ -272,10 +276,6 @@ nav>ul>div>li>a {
   top: 2px;
   font-size: 20px;
   padding-right: 0;
-}
-
-.navtoggle.responsive li {
-  display: block;
 }
 
 .navtoggle.responsive nav {
