@@ -25,6 +25,7 @@ header {
 
 footer {
   text-align: center;
+  float: center;
 }
 
 selector {
