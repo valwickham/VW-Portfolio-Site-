@@ -404,18 +404,16 @@ ul.social_icons>li.social {
   }
 }
 
-svg .cls-2
-{
- animation-name: sky-change;
- animation-duration: 20s;
- animation-iteration-count: infinite;
- animation-direction: alternate;
- animation-timing-function: linear;
+svg .cls-2 {
+  animation-name: sky-change;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
 
 svg .cls-21, svg .cls-20, svg .cls-19,
-svg .cls-22, svg .cls-14, svg .cls-23
-{
+svg .cls-22, svg .cls-14, svg .cls-23 {
   animation-name: ship-move, ship-move1;
   animation-duration: 20s, 20s;
   animation-iteration-count: infinite;
@@ -424,24 +422,27 @@ svg .cls-22, svg .cls-14, svg .cls-23
 }
 
 @keyframes ship-move {
-    0% {
-        transform: translate(-240px);
-    }
-    100% {
-        transform: translate(240px);
-    }
+  0% {
+    transform: translate(-240px);
+  }
+
+  100% {
+    transform: translate(240px);
+  }
 }
 
 @keyframes ship-move1 {
-   0% {
-        transform: rotate(3deg);
-    }
-    50% {
-        transform: rotate(-0.5deg);
-    }
-    100% {
-        transform: rotate(4deg);
-    }
+  0% {
+    transform: rotate(3deg);
+  }
+
+  50% {
+    transform: rotate(-0.5deg);
+  }
+
+  100% {
+    transform: rotate(4deg);
+  }
 }
 
 svg .cls-4:first-child, svg .cls-5 {
@@ -453,12 +454,13 @@ svg .cls-4:first-child, svg .cls-5 {
 }
 
 @keyframes back-cloud-move {
-    0% {
-        transform: translate(240px);
-    }
-    100% {
-        transform: translate(-240px);
-    }
+  0% {
+    transform: translate(240px);
+  }
+
+  100% {
+    transform: translate(-240px);
+  }
 }
 
 svg .cls-4:not(:first-child), svg .cls-13 {
@@ -470,12 +472,13 @@ svg .cls-4:not(:first-child), svg .cls-13 {
 }
 
 @keyframes cloud-move {
-    0% {
-        transform: translate(-240px);
-    }
-    100% {
-        transform: translate(240px);
-    }
+  0% {
+    transform: translate(-240px);
+  }
+
+  100% {
+    transform: translate(240px);
+  }
 }
 
 svg .cls-24 {
@@ -487,12 +490,13 @@ svg .cls-24 {
 }
 
 @keyframes wave1-move {
-    0% {
-        transform: translateY(2px);
-    }
-    50% {
-        transform: translateY(-2px);
-    }
+  0% {
+    transform: translateY(2px);
+  }
+
+  50% {
+    transform: translateY(-2px);
+  }
 }
 
 svg .cls-25 {
@@ -504,12 +508,13 @@ svg .cls-25 {
 }
 
 @keyframes wave2-move {
-    0% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(3px);
-    }
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(3px);
+  }
 }
 
 svg .cls-26 {
@@ -521,12 +526,13 @@ svg .cls-26 {
 }
 
 @keyframes wave3-move {
-    0% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(2px);
-    }
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(2px);
+  }
 }
 
 /* ==============================
