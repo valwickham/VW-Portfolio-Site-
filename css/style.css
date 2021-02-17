@@ -242,6 +242,10 @@ div.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
   padding-top: 20px;
 }
 
+#footer {
+  text-align: center;
+}
+
 .center {
   text-align: center;
 }
