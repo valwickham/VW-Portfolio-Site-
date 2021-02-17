@@ -109,7 +109,7 @@ div.container a {
   cursor: pointer;
 }
 
-div.topBotomBordersOut a:before, .topBotomBordersOut a:after {
+ul.topBotomBordersOut a:before, .topBotomBordersOut a:after {
   position: absolute;
   left: 0px;
   width: 100%;
@@ -120,17 +120,17 @@ div.topBotomBordersOut a:before, .topBotomBordersOut a:after {
   transition: all 0.3s;
 }
 
-div.topBotomBordersOut a:before {
+ul.topBotomBordersOut a:before {
   top: 0px;
   transform: translateY(10px);
 }
 
-div.topBotomBordersOut a:after {
+ul.topBotomBordersOut a:after {
   bottom: 0px;
   transform: translateY(-10px);
 }
 
-div.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
+ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
   opacity: 1;
   transform: translateY(0px);
 }
