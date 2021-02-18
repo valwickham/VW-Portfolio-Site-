@@ -247,6 +247,11 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 #footer .container {
   text-align: center
 }
+
+#footer h2 {
+  text-align: center;
+}
+
 .center {
   text-align: center;
 }
