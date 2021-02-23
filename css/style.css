@@ -23,6 +23,11 @@ header {
   width: 100%;
 }
 
+footer {
+ text-align: center;
+ position: fixed;
+}
+
 
 selector {
   margin: 0 auto;
