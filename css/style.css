@@ -343,6 +343,7 @@ ul.social_icons, li.social {
   position: relative;
   list-style: none;
   float: center;
+  text-align: center;
 }
 
 ul.social_icons>li.social {
