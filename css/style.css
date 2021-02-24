@@ -247,6 +247,7 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
   background-color: #212124;
   border-top: 2px solid #ffffff;
   display: inline-block;
+  align: center;
   width: 100%;
 }
 
