@@ -358,6 +358,15 @@ div.social_icons>li.social {
   padding-inline-start: 40px;
 }
 
+.social_icons>ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.social_icons>ul>li {
+    display: inline-block;
+}
+
 .icons {
     width: 75px;
     height: auto;
