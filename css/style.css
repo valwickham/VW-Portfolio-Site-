@@ -1,7 +1,6 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-
 
 * {
   box-sizing: border-box;
@@ -234,7 +233,7 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 }
 
 #work h2 {
-    text-align: center;
+  text-align: center;
 }
 
 #hero h1 {
@@ -259,16 +258,17 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
   align: center;
   width: 100%;
 }
+
 #footer h2 {
-    text-align: center;
+  text-align: center;
 }
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .center {
@@ -362,22 +362,22 @@ div.social_icons>li.social {
   padding-inline-start: 40px;
 }
 
-.social_icons>ul{
-    list-style-type: none;
-    padding: 0;
+.social_icons>ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 .social_icons>ul>li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .icons {
-    width: 75px;
-    height: auto;
+  width: 75px;
+  height: auto;
 }
 
 p.copyright {
-    text-align: center;
+  text-align: center;
 }
 
 #hero {
@@ -678,10 +678,15 @@ X-large devices (1440px or larger)
     /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-  @media only screen and (min-width: 1920px) {}
-    
-  @media only screen and (min-width: 640px)
-      [class*='col-'] {
-          float: left;
-          padding: 10px;
-      }
+    @media only screen and (min-width: 1920px) {}
+
+    @media only screen and (min-width: 640px) [class*='col-'] {
+      float: left;
+      padding: 10px;
+    }
+
+    @media only screen and (min-width: 640px) .row::after {
+      content: '';
+      clear: both;
+      display: table;
+    }
