@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -343,6 +348,10 @@ ul.social_icons, li.social {
 ul.social_icons>li.social {
   display: inline-block;
   padding: 10px;
+}
+
+.copyright {
+    text-align: center;
 }
 
 #hero {
