@@ -243,18 +243,11 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
   padding-top: 20px;
 }
 
-#footer .container {
-  text-align: center
-}
-
-#footer h2 {
-  text-align: center;
-}
-
-#footer p {
-  text-align: center;
-  float: center;
-  position: fixed;
+#footer {
+  background-color: #212124;
+  border-top: 2px solid #ffffff;
+  display: inline-block;
+  width: 100%;
 }
 
 .center {
