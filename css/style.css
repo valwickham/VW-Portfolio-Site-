@@ -337,7 +337,7 @@ nav>ul>li>a {
   padding: 0 0 10px;
 }
 
-ul.social_icons, li.social {
+div.social_icons, li.social {
   text-decoration: none;
   display: block;
   margin-block-start: 1em;
@@ -347,7 +347,7 @@ ul.social_icons, li.social {
   padding-inline-start: 40px;
 }
 
-ul.social_icons>li.social {
+div.social_icons>li.social {
   display: block;
   padding: 10px;
   text-align: center;
