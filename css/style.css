@@ -233,6 +233,10 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
   padding-top: 25px;
 }
 
+#work h2 {
+    text-align: center;
+}
+
 #hero h1 {
   text-align: center;
   padding-top: 0px;
