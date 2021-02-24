@@ -358,6 +358,11 @@ ul.social_icons>li.social {
   padding-inline-start: 40px;
 }
 
+.icons {
+    width: 75px;
+    height: auto;
+}
+
 p.copyright {
     text-align: center;
 }
