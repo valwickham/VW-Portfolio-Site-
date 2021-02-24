@@ -250,6 +250,9 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
   align: center;
   width: 100%;
 }
+#footer h2 {
+    text-align: center;
+}
 
 p {
     display: block;
