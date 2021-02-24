@@ -349,6 +349,7 @@ ul.social_icons, li.social {
 ul.social_icons>li.social {
   display: inline-block;
   padding: 10px;
+  text-align: center;
 }
 
 p.copyright {
