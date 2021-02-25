@@ -114,6 +114,10 @@ div.container a {
   text-align: center;
 }
 
+div {
+  display: block;
+}
+
 ul.topBotomBordersOut a:before, .topBotomBordersOut a:after {
   position: absolute;
   left: 0px;
