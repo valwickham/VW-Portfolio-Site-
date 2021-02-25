@@ -661,11 +661,6 @@ Medium devices (640px and larger)
     width: 50%;
   }
 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
   /* ==============================
 Large devices (1024px or larger)
@@ -686,16 +681,3 @@ X-large devices (1440px or larger)
 Extra-large devices (1920px or larger)
 ================================= */
     @media only screen and (min-width: 1920px) {}
-
-    @media only screen and (min-width: 640px) {
-      .row::after {
-        content: '';
-        clear: both;
-        display: table;
-      }
-
-      @media only screen and (min-width: 640px) {
-        [class*='col-'] {
-          float: left;
-          padding: 10px;
-        }
