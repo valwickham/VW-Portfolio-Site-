@@ -646,7 +646,7 @@ Medium devices (640px and larger)
 
   div.container {
     margin: 0 auto;
-    padding top: 40px;
+    padding-top: 40px;
   }
 
   .column {
@@ -680,13 +680,15 @@ Extra-large devices (1920px or larger)
 ================================= */
     @media only screen and (min-width: 1920px) {}
 
-    @media only screen and (min-width: 640px) [class*='col-'] {
-      float: left;
-      padding: 10px;
-    }
+    @media only screen and (min-width: 640px) {
+      .row::after {
+        content: '';
+        clear: both;
+        display: table;
+      }
 
-    @media only screen and (min-width: 640px) .row::after {
-      content: '';
-      clear: both;
-      display: table;
-    }
+      @media only screen and (min-width: 640px) {
+        [class*='col-'] {
+          float: left;
+          padding: 10px;
+        }
