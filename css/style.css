@@ -228,11 +228,6 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
     margin: 25px 0;
 }
 
-[class*='col-'] {
-    float: left;
-    padding: 10px;
-}
-
 div {
     display: block;
 }
