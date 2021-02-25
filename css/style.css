@@ -449,6 +449,22 @@ p.copyright {
   margin: 30px auto;
 }
 
+<<<<<<< HEAD
+=======
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+>>>>>>> parent of fbfdb3b (Update style.css)
 @keyframes sky-change {
   0% {
     fill: #81d4fa;
