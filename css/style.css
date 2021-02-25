@@ -233,12 +233,6 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
     padding: 10px;
 }
 
-.row::after {
-    content: '';
-    clear: both;
-    display: table;
-}
-
 div {
     display: block;
 }
