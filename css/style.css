@@ -636,21 +636,6 @@ Medium devices (640px and larger)
     display: block;
   }
 
-  .col-md-6 {
-    width: 50%;
-  }
-
-  [class*="col-"] {
-    float: left;
-    padding: 20px;
-  }
-
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
   #about h3 {
     margin-top: 0;
   }
@@ -660,12 +645,11 @@ Medium devices (640px and larger)
     padding top: 40px;
   }
 
-  column {
+  .column {
     float: left;
     width: 50%;
   }
 
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
