@@ -220,15 +220,15 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 }
 
 .container {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .row {
-    margin: 25px 0;
+  margin: 25px 0;
 }
 
 div {
-    display: block;
+  display: block;
 }
 
 #work .row {
@@ -689,14 +689,26 @@ Extra-large devices (1920px or larger)
       }
 
       @media only screen and (min-width: 640px) {
-      [class*='col-'] {
+        [class*='col-'] {
           float: left;
           padding: 10px;
-          
         }
-      @media only screen and (min-width: 1024px) {
-        .row::after {
+
+        @media only screen and (min-width: 1024px) {
+          .row::after {
             content: '';
             clear: both;
             display: table;
-        }
+          }
+
+          @media only screen and (min-width: 1024px) {
+            .col-lg-6 {
+              width: 50%;
+              margin: auto;
+            }
+
+            @media only screen and (min-width: 1024px) {
+              [class*='col-'] {
+                float: left;
+                padding: 10px;
+              }
