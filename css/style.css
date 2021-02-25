@@ -220,14 +220,16 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
   color: #ffffff;
 }
 
-/* Layout styling */
 .container {
-  padding: 10px 15px;
+    padding: 0 15px;
 }
 
 .row {
-  margin: 25px 0;
-  /* 25px top and bottom, 0 left and right */
+    margin: 25px 0;
+}
+
+div {
+    display: block;
 }
 
 #work .row {
@@ -449,22 +451,6 @@ p.copyright {
   margin: 30px auto;
 }
 
-<<<<<<< HEAD
-=======
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
->>>>>>> parent of fbfdb3b (Update style.css)
 @keyframes sky-change {
   0% {
     fill: #81d4fa;
