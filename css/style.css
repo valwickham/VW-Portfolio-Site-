@@ -61,7 +61,6 @@ h4 {
   font-weight: 400;
 }
 
-/* custom classes to help  */
 .makeUppercase {
   text-transform: uppercase;
 }
@@ -693,4 +692,11 @@ Extra-large devices (1920px or larger)
       [class*='col-'] {
           float: left;
           padding: 10px;
+          
+        }
+      @media only screen and (min-width: 1024px) {
+        .row::after {
+            content: '';
+            clear: both;
+            display: table;
         }
