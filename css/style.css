@@ -221,20 +221,20 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 }
 
 .container {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .row {
-    margin: 25px 0;
+  margin: 25px 0;
 }
 
 [class*='col-'] {
-    float: left;
-    padding: 10px;
+  float: left;
+  padding: 10px;
 }
 
 div {
-    display: block;
+  display: block;
 }
 
 #work .row {
@@ -656,11 +656,12 @@ Medium devices (640px and larger)
     padding-top: 40px;
   }
 
-  .column {
+  .col-lg-6 {
     float: left;
     width: 50%;
+    padding: 10px;
+    height: 300px;
   }
-
 
   /* ==============================
 Large devices (1024px or larger)
