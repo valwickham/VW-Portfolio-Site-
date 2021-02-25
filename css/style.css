@@ -662,6 +662,22 @@ Medium devices (640px and larger)
   }
 
   /* ==============================
+Small devices (640px)
+================================= */
+@media only screen and (min-width: 640px) {
+  .row::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+
+  @media only screen and (min-width: 640px) {
+    [class*='col-'] {
+      float: left;
+      padding: 10px;
+    }
+
+  /* ==============================
 Large devices (1024px or larger)
 ================================= */
   @media only screen and (min-width: 1024px) {
@@ -671,6 +687,24 @@ Large devices (1024px or larger)
       margin-right: auto;
     }
 
+  @media only screen and (min-width: 1024px) {
+      .row::after {
+        content: '';
+        clear: both;
+        display: table;
+      }
+
+  @media only screen and (min-width: 1024px) {
+        .col-lg-6 {
+          width: 50%;
+          margin: auto;
+        }
+
+ @media only screen and (min-width: 1024px) {
+          [class*='col-'] {
+            float: left;
+            padding: 10px;
+          }
     /* ==============================
 X-large devices (1440px or larger)
 ================================= */
@@ -680,35 +714,3 @@ X-large devices (1440px or larger)
 Extra-large devices (1920px or larger)
 ================================= */
     @media only screen and (min-width: 1920px) {}
-
-    @media only screen and (min-width: 640px) {
-      .row::after {
-        content: '';
-        clear: both;
-        display: table;
-      }
-
-      @media only screen and (min-width: 640px) {
-        [class*='col-'] {
-          float: left;
-          padding: 10px;
-        }
-
-        @media only screen and (min-width: 1024px) {
-          .row::after {
-            content: '';
-            clear: both;
-            display: table;
-          }
-
-          @media only screen and (min-width: 1024px) {
-            .col-lg-6 {
-              width: 50%;
-              margin: auto;
-            }
-
-            @media only screen and (min-width: 1024px) {
-              [class*='col-'] {
-                float: left;
-                padding: 10px;
-              }
