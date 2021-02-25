@@ -221,20 +221,20 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 }
 
 .container {
-  padding: 0 15px;
+    padding: 0 15px;
 }
 
 .row {
-  margin: 25px 0;
+    margin: 25px 0;
 }
 
 [class*='col-'] {
-  float: left;
-  padding: 10px;
+    float: left;
+    padding: 10px;
 }
 
 div {
-  display: block;
+    display: block;
 }
 
 #work .row {
@@ -656,11 +656,15 @@ Medium devices (640px and larger)
     padding-top: 40px;
   }
 
-  .col-lg-6 {
+  .column {
     float: left;
     width: 50%;
-    padding: 10px;
-    height: 300px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
   /* ==============================
@@ -682,3 +686,16 @@ X-large devices (1440px or larger)
 Extra-large devices (1920px or larger)
 ================================= */
     @media only screen and (min-width: 1920px) {}
+
+    @media only screen and (min-width: 640px) {
+      .row::after {
+        content: '';
+        clear: both;
+        display: table;
+      }
+
+      @media only screen and (min-width: 640px) {
+      [class*='col-'] {
+          float: left;
+          padding: 10px;
+        }
