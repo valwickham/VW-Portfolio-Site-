@@ -257,8 +257,8 @@ div {
 }
 
 #footer {
-  background-color: #212124;
-  border-top: 2px solid #ffffff;
+  background-color: #ffffff;
+  border-top: 2px solid #000000;
   display: inline-block;
   align: center;
   width: 100%;
