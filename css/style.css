@@ -46,6 +46,13 @@ h1 {
   padding-top: 30px;
 }
 
+h1-1 {
+  font-size: 2.75em;
+  font-weight: 700;
+  padding-top: 30px;
+  color: #ffffff
+}
+
 h2 {
   font-size: 2.25em;
   font-weight: 700;
