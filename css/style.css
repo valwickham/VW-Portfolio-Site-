@@ -257,12 +257,11 @@ div {
 }
 
 #footer {
-  background-color: #ffffff;
-  border-top: 2px solid #000000;
+  background-color: #212124;
+  border-top: 2px solid #ffffff;
   display: inline-block;
   align: center;
   width: 100%;
-  color: #000000
 }
 
 #footer h2 {
