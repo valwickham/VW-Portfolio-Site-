@@ -429,11 +429,15 @@ p.copyright {
 #telephone:hover {
   color: #000000;
   text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 5px;
 }
 
 #telephone:focus {
   color: #000000;
   text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 5px;
 }
 
 #skype {
@@ -449,11 +453,15 @@ p.copyright {
 #skype:hover {
   color: #000000;
   text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 5px;
 }
 
 #skype:focus {
   color: #000000;
   text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 5px;
 }
 
 .background {
