@@ -12,7 +12,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
-  color: #ffffff;
+  color: #000000;
 }
 
 header {
@@ -232,6 +232,7 @@ div {
 }
 
 #work .row {
+  background-color: #ffffff;
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
   padding-top: 25px;
