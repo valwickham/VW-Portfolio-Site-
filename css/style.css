@@ -169,10 +169,10 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 }
 
 .button.contact:hover {
-  background-color: #e4e8f0;
+  background-color: transparent;
   color: #000000;
   text-transform: uppercase;
-  border: 2px solid #e4e8f0;
+  border: 2px solid #000000;
   border-bottom: 2px solid #000000;
   position: static;
 }
