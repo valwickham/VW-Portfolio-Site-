@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-color: #b5b6ba;
+  background-color: #e4e8f0;
   padding-bottom: 30px;
   padding: 10px 0 4px;
   font-weight: bold;
@@ -386,7 +386,7 @@ p.copyright {
 }
 
 #hero {
-  background-color: #b5b6ba;
+  background-color: #e4e8f0;
   padding: 40px 0;
   display: inline-block;
   width: 100%;
