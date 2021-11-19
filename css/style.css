@@ -145,8 +145,8 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 
 .button {
   display: inline-block;
-  background-color: #16BBD5;
-  color: #FFFFFF;
+  background-color: #e4e8f0;
+  color: #000000;
   font-weight: 400;
   padding: 10px;
   text-decoration: none;
@@ -163,60 +163,60 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 
 .button.contact {
   background-color: transparent;
-  color: #16BBD5;
+  color: #e4e8f0;
   text-transform: uppercase;
-  border: 2px solid #16BBD5;
+  border: 2px solid #e4e8f0;
 }
 
 .button.contact:hover {
-  background-color: #16BBD5;
-  color: #ffffff;
+  background-color: #e4e8f0;
+  color: #000000;
 }
 
 .button.readmore {
-  background-color: #16BBD5;
-  color: #FFFFFF;
+  background-color: #e4e8f0;
+  color: #000000;
   text-transform: uppercase;
-  border: 2px solid #16BBD5;
+  border: 2px solid #e4e8f0;
   border-bottom: 2px solid #000000;
   position: static;
 }
 
 .button.readmore:hover {
-  background-color: #16BBD5;
-  color: #ffffff;
-  border: 2px solid #16BBD5;
+  background-color: #e4e8f0;
+  color: #000000;
+  border: 2px solid #e4e8f0;
   border-bottom: 2px solid #000000;
   position: static;
 }
 
 .button.seebehance {
-  background-color: #16BBD5;
-  color: #FFFFFF;
+  background-color: #e4e8f0;
+  color: #000000;
   border: 2px solid #16BBD5;
   border-bottom: 2px solid #000000;
   position: static;
 }
 
 .button.seebehance:hover {
-  background-color: #16BBD5;
-  color: #ffffff;
-  border: 2px solid #16BBD5;
+  background-color: #e4e8f0;
+  color: #000000;
+  border: 2px solid #e4e8f0;
   border-bottom: 2px solid #000000;
   position: static;
 }
 
 .button.downloadCV {
   background-color: transparent;
-  color: #16BBD5;
+  color: #e4e8f0;
   text-transform: none;
-  border: 2px solid #16BBD5;
+  border: 2px solid #e4e8f0;
   position: static;
 }
 
 .button.downloadCV:hover {
-  background-color: #16BBD5;
-  color: #ffffff;
+  background-color: #e4e8f0;
+  color: #000000;
 }
 
 .container {
