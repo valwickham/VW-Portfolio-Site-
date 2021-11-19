@@ -88,15 +88,15 @@ img.two {
 }
 
 a {
-  color: #ffffff
+  color: #000000
 }
 
 a:hover {
-  color: #77FDC8;
+  color: #000000;
 }
 
 a:focus {
-  color: #ffffff;
+  color: #000000;
   text-decoration: underline;
 }
 
