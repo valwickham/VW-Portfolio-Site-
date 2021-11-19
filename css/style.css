@@ -306,7 +306,7 @@ nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .navtoggle.responsive li {
@@ -408,41 +408,41 @@ p.copyright {
 
 #telephone {
   /* id selector */
-  color: #16BBD5;
+  color: #000000;
 }
 
 .telephone {
   /* class selector */
-  color: #16BBD5;
+  color: #000000;
 }
 
 #telephone:hover {
-  color: #ffffff;
+  color: #000000;
   text-decoration: underline;
 }
 
 #telephone:focus {
-  color: #ffffff;
+  color: #000000;
   text-decoration: underline;
 }
 
 #skype {
   /* id selector */
-  color: #16BBD5;
+  color: #000000;
 }
 
 .skype {
   /* class selector */
-  color: #16BBD5;
+  color: #000000;
 }
 
 #skype:hover {
-  color: #ffffff;
+  color: #000000;
   text-decoration: underline;
 }
 
 #skype:focus {
-  color: #ffffff;
+  color: #000000;
   text-decoration: underline;
 }
 
