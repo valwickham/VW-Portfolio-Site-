@@ -213,7 +213,7 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 }
 
 .button.downloadCV {
-  background-color: transparent;
+  background-color: #e4e8f0;
   color: #000000;
   text-transform: none;
   border: 2px solid #000000;
