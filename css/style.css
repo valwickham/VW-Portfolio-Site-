@@ -41,6 +41,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
+  color: #ffffff
   font-size: 2.75em;
   font-weight: 700;
   padding-top: 30px;
@@ -52,6 +53,7 @@ h2 {
 }
 
 h3 {
+  color: #ffffff
   font-size: 1.75em;
   font-weight: 400;
 }
@@ -379,6 +381,10 @@ div.social_icons>li.social {
 
 .social_icons>ul>li {
   display: inline-block;
+}
+
+li {
+  color: #000000
 }
 
 .icons {
