@@ -419,15 +419,18 @@ p.copyright {
 #telephone {
   /* id selector */
   color: #000000;
+  font-weight: bold;
 }
 
 .telephone {
   /* class selector */
   color: #000000;
+  font-weight: bold;
 }
 
 #telephone:hover {
   color: #000000;
+  font-weight: bold;
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 3px;
@@ -435,6 +438,7 @@ p.copyright {
 
 #telephone:focus {
   color: #000000;
+  font-weight: bold;
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 3px;
@@ -443,15 +447,18 @@ p.copyright {
 #skype {
   /* id selector */
   color: #000000;
+  font-weight: bold;
 }
 
 .skype {
   /* class selector */
   color: #000000;
+  font-weight: bold;
 }
 
 #skype:hover {
   color: #000000;
+  font-weight: bold;
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 5px;
@@ -459,6 +466,7 @@ p.copyright {
 
 #skype:focus {
   color: #000000;
+  font-weight: bold;
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 5px;
