@@ -467,7 +467,7 @@ p.copyright {
   font-weight: bold;
   text-decoration: underline;
   text-decoration-style: solid;
-  text-decoration-thickness: 5px;
+  text-decoration-thickness: 3px;
 }
 
 #skype:focus {
@@ -475,7 +475,7 @@ p.copyright {
   font-weight: bold;
   text-decoration: underline;
   text-decoration-style: solid;
-  text-decoration-thickness: 5px;
+  text-decoration-thickness: 3px;
 }
 
 .background {
