@@ -430,14 +430,14 @@ p.copyright {
   color: #000000;
   text-decoration: underline;
   text-decoration-style: solid;
-  text-decoration-thickness: 5px;
+  text-decoration-thickness: 3px;
 }
 
 #telephone:focus {
   color: #000000;
   text-decoration: underline;
   text-decoration-style: solid;
-  text-decoration-thickness: 5px;
+  text-decoration-thickness: 3px;
 }
 
 #skype {
