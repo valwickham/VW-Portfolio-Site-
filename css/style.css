@@ -251,6 +251,41 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
     }
    }
 
+$pale-white: #f6f6f6;
+@mixin cover(){
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-size:cover;
+}
+
+@mixin round($radius){
+   -webkit-border-radius: $radius;
+   -moz-border-radius: $radius;
+   -o-border-radius: $radius;
+   border-radius: $radius;
+}
+
+@mixin big(){
+   font-family: 'Montserrat', sans-serif;
+}
+
+@mixin anime($time, $cubic){
+   -webkit-transition: all $time $cubic;
+   -moz-transition: all $time $cubic;
+   -o-transition: all $time $cubic;
+   transition: all $time $cubic;
+}
+
+@mixin center(){
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+
 .button.readmore {
   background-color: #e4e8f0;
   color: #000000;
