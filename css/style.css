@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.00em;
+  font-size: 2.25em;
   font-weight: 700;
 }
 
@@ -145,8 +145,6 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
   transform: translateY(0px);
 }
 
-
-
 .button {
   display: inline-block;
   background-color: #e4e8f0;
@@ -172,120 +170,13 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
   border: 2px solid #000000;
 }
 
-.section{
-  width: 100%;
-  height: 400px;
-  padding:0;
-   position:absolute;
-   border-top: 2px solid #fff;
-     border-bottom: 2px solid #fff;
-}
-
- .one{
-    top:0px;
-    left:0px;
-      background: url(https://images.unsplash.com/photo-1461887046916-c7426e65460d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2a03e179401fab10a3b1941193440e12) center center no-repeat;
-    @include cover();
-    #button{
-       width: 122px;
-       padding: 6px;
-       height: 50px;
-       color: $pale-white;
-       @include big();
-       font-size: 2.5em;
-       position:absolute;
-       @include center();
-       border: #fff 2px solid;
-       overflow:hidden;
-       @include anime(0.6s, (cubic-bezier(.55,0,.1,1)));
-       cursor: pointer;
-       box-shadow: 0px 0px 0px #fff;
-       &:hover{
-          text-shadow: 0px 8px 6px rgba(0,0,0,0.9);
-          box-shadow: 8px 8px 0px #fff, -8px -8px 0px #fff;
-       }
-       &:hover .one{
-           opacity:1;
-         transform: translate3d(0px ,0px ,0px);
-       }
-       &:hover .two{
-
-          transform: translate3d(0px ,0px ,0px);
-       }
-       &:hover .three{
-          transform: translate3d(0px ,0px ,0px);
-       }
-       &:hover .four{
-          transform: translate3d(0px ,0px ,0px);
-       }
-       .ring{
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          background: transparent;
-          top:0;
-          left:0;
-          transform: translate3d(0px ,90px ,0px);
-       }
-       .one{
-          background-color: #FE6B26;
-          @include anime(0.3s, (cubic-bezier(.55,0,.1,1)));
-          z-index: -3;
-          z-index: -4;
-       }
-       .two{
-          background-color:#FE8EFE;
-          @include anime(0.5s, (cubic-bezier(.55,0,.1,1)));
-          z-index: -3;
-       }
-       .three{
-          background-color: #841EE4;
-          z-index: -2;
-          @include anime(0.7s, (cubic-bezier(.55,0,.1,1)));
-          z-index: -3;
-       }
-       .four{
-         background-color:#3E12FD;
-          z-index: -1;
-          @include anime(0.9s, (cubic-bezier(.55,0,.1,1)));
-          z-index: -3;
-       }
-    }
-   }
-
-$pale-white: #f6f6f6;
-@mixin cover(){
-   -webkit-background-size:cover;
-   -moz-background-size:cover;
-   -o-background-size:cover;
-   background-size:cover;
-}
-
-@mixin round($radius){
-   -webkit-border-radius: $radius;
-   -moz-border-radius: $radius;
-   -o-border-radius: $radius;
-   border-radius: $radius;
-}
-
-@mixin big(){
-   font-family: 'Montserrat', sans-serif;
-}
-
-@mixin anime($time, $cubic){
-   -webkit-transition: all $time $cubic;
-   -moz-transition: all $time $cubic;
-   -o-transition: all $time $cubic;
-   transition: all $time $cubic;
-}
-
-@mixin center(){
-   top: 50%;
-   left: 50%;
-   -webkit-transform: translate(-50%, -50%);
-   -moz-transform: translate(-50%, -50%);
-   -o-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
+.button.contact:hover {
+  background-color: #000000;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+  border-bottom: 2px solid #000000;
+  position: static;
 }
 
 .button.readmore {
