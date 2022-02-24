@@ -270,6 +270,10 @@ div {
 
 #vocablab
 
+footer {
+  background: #e4e8f0;
+  }
+
 #footer.container {
   background: #e4e8f0;
   border-top: 2px solid #ffffff;
