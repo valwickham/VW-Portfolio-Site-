@@ -278,6 +278,7 @@ footer {
   width: 100%;
 }
 
+
 #footer.container {
   background: #e4e8f0;
   border-top: 2px solid #ffffff;
@@ -681,16 +682,16 @@ Medium devices (640px and larger)
 
   #hero span {
     display: block;
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
   #hero {
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
   #hero h1{
-    padding-top: 50px;
-    margin-top: 50px;
+    padding-top: 20px;
+    margin-top: 20px;
   }
 
   #about h3 {
