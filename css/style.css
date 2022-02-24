@@ -6,7 +6,7 @@ html {
   box-sizing: border-box;
 }
 
-body {
+html,body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
