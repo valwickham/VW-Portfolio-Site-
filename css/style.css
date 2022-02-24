@@ -673,6 +673,7 @@ Medium devices (640px and larger)
 
   #hero span {
     display: block;
+    padding-top: 20px;
   }
 
   #about h3 {
