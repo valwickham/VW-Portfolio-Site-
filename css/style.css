@@ -676,6 +676,14 @@ Medium devices (640px and larger)
     padding-top: 20px;
   }
 
+  #hero {
+    padding-top: 20px;
+  }
+
+  #hero h1{
+    padding-top: 20px;
+  }
+
   #about h3 {
     margin-top: 0;
   }
