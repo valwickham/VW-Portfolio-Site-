@@ -272,6 +272,11 @@ div {
 
 footer {
   background: #e4e8f0;
+  border-top: 2px solid #ffffff;
+  display: inline-block;
+  align: center;
+  width: 100%;
+}
   }
 
 #footer.container {
