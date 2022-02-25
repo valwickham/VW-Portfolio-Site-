@@ -329,42 +329,43 @@ p {
   position: relative;
 }
 
-nav {
-  width: auto;
-  float: right;
-}
-
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav>ul>li>a {
+nav > ul > li {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #000000;
+  color: #363636;
 }
 
-.navtoggle.responsive li {
-  display: block;
+nav > ul > li > a:visited {
+  color: #363636;
+}
+
+nav > ul > li > a:hover {
+  color: #c3a8d6;
+}
+
+nav > ul > li > a:active {
+  color: #3faa64;
 }
 
 .navtoggle li:not(:last-child) {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
-}
-
-.navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
-  padding-right: 0;
 }
 
 .navtoggle.responsive li {
@@ -372,17 +373,30 @@ nav>ul>li>a {
 }
 
 .navtoggle.responsive nav {
-  padding: 0 0 0;
+  padding: 24px 0 0;
 }
 
 .navtoggle.responsive li {
   display: block;
-  padding: 0px 0;
-  border-top: 0px solid rgba(255, 127, 80, 0.5);
+  padding: 10px 0;
+  border-top: 1px solid #3faa64;
+  text-align: center;
 }
 
 .navtoggle.responsive li:last-child {
   padding: 0 0 10px;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.navtoggle {
+  vertical-align: middle;
 }
 
 div.social_icons, li.social {
