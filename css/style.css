@@ -168,7 +168,6 @@ BUTTON STYLING
   color: #000000;
   border: 2px solid #e4e8f0;
   border-bottom: 2px solid #000000;
-  position: static;
 }
 
 .button.readmore:hover {
@@ -177,7 +176,6 @@ BUTTON STYLING
   text-transform: none;
   border: 2px solid #ffffff;
   border-bottom: 2px solid #000000;
-  position: static;
 }
 
 .button.seebehance {
@@ -185,7 +183,6 @@ BUTTON STYLING
   color: #000000;
   border: 2px solid #e4e8f0;
   border-bottom: 2px solid #000000;
-  position: static;
 }
 
 .button.seebehance:hover {
@@ -194,7 +191,6 @@ BUTTON STYLING
   text-transform: none;
   border: 2px solid #ffffff;
   border-bottom: 2px solid #000000;
-  position: static;
 }
 
 .button.downloadCV {
@@ -202,7 +198,6 @@ BUTTON STYLING
   color: #000000;
   text-transform: none;
   border: 2px solid #000000;
-  position: static;
 }
 
 .button.downloadCV:hover {
@@ -211,7 +206,6 @@ BUTTON STYLING
   text-transform: none;
   border: 2px solid #ffffff;
   border-bottom: 2px solid #000000;
-  position: static;
 }
 
 /* =================================================
