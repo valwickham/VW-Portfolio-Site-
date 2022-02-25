@@ -647,36 +647,31 @@ svg .cls-26 {
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 640px) {
   header {
     text-align: unset;
-    padding: 10px 0 13px;
+    padding-left: 50px;
+    vertical-align: middle;
   }
 
-  main {
-    margin-top: 60px;
-    padding-top: 20px;
+  h1 {
+    font-size: 2.25em;
+    font-weight: 700;
   }
 
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
+    margin-top: 0;
   }
 
-  nav>ul {
+  nav > ul {
     margin: 1em 0;
   }
 
-  nav>ul>li {
+  nav > ul > li {
+    list-style-type: none;
     display: inline-block;
-  }
-
-  nav>ul>div>li>a {
-    padding: 0 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #FFFFFF;
   }
 
   .navtoggle li:not(:last-child) {
@@ -687,113 +682,144 @@ Medium devices (640px and larger)
     display: none;
   }
 
-  #hero span {
-    display: block;
+  main {
+    padding-top: 99px;
+    font-size: 18px;
+    margin-top: 80px;
   }
 
-  #hero h1 {
-    margin-top: 30px;
+  #hero {
+    padding: 20px 50px;
   }
 
-  #about h3 {
-    margin-top: 0;
+  .col-md-4 {
+    width: 33.33%;
   }
 
-  div.container {
-    margin: 0 auto;
-  }
-
-  .column {
-    float: left;
+  .col-md-6 {
     width: 50%;
   }
 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  .col-md-8 {
+    width: 66.66%;
+  }
+
+  #about-page h3 {
+    margin-top: 0;
+  }
+
+  .vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #plutopay-page [class*='col-md-'] {
+    float: left;
+    padding: 0 25px;
   }
 }
 
 /* ==============================
-Small devices (640px)
-================================= */
-@media only screen and (min-width: 640px) {
-  .row::after {
-    content: '';
-    clear: both;
-    display: table;
-  }
-
-  @media only screen and (min-width: 640px) {
-    [class*='col-'] {
-      float: left;
-      padding: 10px;
-    }
-
-    /* ==============================
 Large devices (1024px or larger)
 ================================= */
-    @media only screen and (min-width: 1024px) {
-      .container {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-      }
+@media only screen and (min-width: 1024px) {
+  header {
+    text-align: unset;
+    padding: 10px;
+    vertical-align: middle;
+  }
 
-      @media only screen and (min-width: 1024px) {
-        .row::after {
-          content: '';
-          clear: both;
-          display: table;
-        }
+  main {
+    font-size: 20px;
+  }
 
-        @media only screen and (min-width: 1024px) {
-          .col-lg-6 {
-            width: 50%;
-            margin: auto;
-          }
-
-          @media only screen and (min-width: 1024px) {
-            [class*='col-'] {
-              float: left;
-              padding: 10px;
-            }
-
-            /* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.container {
+  .container {
     max-width: 1200px;
     margin: 0 auto;
     text-align: left;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  .col-lg-8 {
+    width: 66.66%;
+  }
+
+  nav {
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  nav > ul {
+    margin: 1em 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  .logo {
+    max-width: 125px;
+    padding-top: 10px;
+  }
+
+  .vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #plutopay-page [class*='col-lg-'] {
+    float: left;
+    padding: 0 25px;
+  }
 }
-            }
 
-            /* ==============================
-Extra-large devices (1920px or larger)
+
+/* ==============================
+X-large devices (1440px or larger)
 ================================= */
-            @media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1440px) {
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 20px;
+  }
 
-            /* 2340x1080 pixels at 476ppi */
-            @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {}
+  main {
+    font-size: 20px;
+  }
 
-            /* 2532x1170 pixels at 460ppi */
-            @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {}
+  h1 {
+    font-size: 3em;
+  }
 
-            /* 2778x1284 pixels at 458ppi */
-            @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {}
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
-            /* 1792x828px at 326ppi */
-            @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {}
-
-            /* 2436x1125px at 458ppi */
-            @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {}
-
-            /* 2688x1242px at 458ppi */
-            @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {}
+  .logo {
+    max-width: 150px;
+  }
+}
