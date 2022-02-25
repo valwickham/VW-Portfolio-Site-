@@ -6,7 +6,7 @@ html {
   box-sizing: border-box;
 }
 
-html, body {
+body {
   background-color: #f3f1f0;
   font-family: 'Outfit', sans-serif;
   font-size: 18px;
