@@ -27,13 +27,15 @@ header {
 }
 
 footer {
-  background: #e4e8f0;
-  border-top: 2px solid #ffffff;
+  background-color: #448691;
+  border-top: 4px;
+  position: relative;
   display: inline-block;
-  align: center;
+  text-align: center;
   width: 100%;
   padding-bottom: 30px;
   padding: 10px 0 4px;
+  vertical-align: middle;
 }
 
 selector {
