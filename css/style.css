@@ -7,7 +7,7 @@ html {
 }
 
 html, body {
-  background-color: #ffffff;
+  background-color: #f3f1f0;
   font-family: 'Outfit', sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -678,7 +678,8 @@ Medium devices (640px and larger)
   }
 
   main {
-    padding-top: 70px;
+    margin-top: 60px;
+    padding-top: 20px;
   }
 
   nav {
