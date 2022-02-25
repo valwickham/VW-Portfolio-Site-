@@ -408,6 +408,9 @@ main {
   width: 100%;
 }
 
+/* =================================================
+FOOTER STYLING
+================================================= */
 footer {
   background-color: #e8d7f4;
   padding: 10px;
@@ -420,8 +423,36 @@ footer {
   vertical-align: middle;
 }
 
-#footer h2 {
+#contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact ul > li {
+  display: inline;
   text-align: center;
+}
+
+.button.contact {
+  display: inline-block;
+}
+
+#contact .container {
+  display: inline;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline;
+}
+
+.parent {
+  position: relative;
 }
 
 p {
