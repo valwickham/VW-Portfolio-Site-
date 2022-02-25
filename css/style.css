@@ -115,6 +115,10 @@ a:focus {
   text-decoration: underline;
 }
 
+a:active {
+  color: #582d6b;
+}
+
 div.container {
   margin: 0 auto;
 }
@@ -162,11 +166,12 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
   display: inline-block;
   background-color: #e4e8f0;
   color: #000000;
-  font-weight: 400;
-  padding: 10px;
+  font-weight: 700;
+  padding: 10px 20px;
   text-decoration: none;
   border-radius: 3px;
   border-bottom: 2px solid #000000;
+  margin: 10px 0;
   transition: 0.2s opacity;
   transition-duration: 0.2s;
 }
@@ -180,16 +185,15 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
   background-color: transparent;
   color: #000000;
   text-transform: uppercase;
-  border: 2px solid #000000;
+  border: none;
+  display: inline;
+  width: 150px;
+  margin: 10px;
 }
 
 .button.contact:hover {
   background-color: #000000;
   color: #ffffff;
-  text-transform: uppercase;
-  border: 2px solid #ffffff;
-  border-bottom: 2px solid #000000;
-  position: static;
 }
 
 .button.readmore {
@@ -203,7 +207,7 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 .button.readmore:hover {
   background-color: #000000;
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: none;
   border: 2px solid #ffffff;
   border-bottom: 2px solid #000000;
   position: static;
@@ -220,7 +224,7 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 .button.seebehance:hover {
   background-color: #000000;
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: none;
   border: 2px solid #ffffff;
   border-bottom: 2px solid #000000;
   position: static;
@@ -237,18 +241,27 @@ ul.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
 .button.downloadCV:hover {
   background-color: #000000;
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: none;
   border: 2px solid #ffffff;
   border-bottom: 2px solid #000000;
   position: static;
 }
 
 .container {
-  padding: 0 15px;
+  padding: 0 10px;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 .row {
   margin: 25px 0;
+  vertical-align: middle;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 div {
