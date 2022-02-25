@@ -6,7 +6,7 @@ html {
   box-sizing: border-box;
 }
 
-html,body {
+html, body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -51,8 +51,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  color: #ffffff
-  font-size: 2.75em;
+  color: #ffffff font-size: 2.75em;
   font-weight: 700;
   padding-top: 30px;
 }
@@ -63,8 +62,7 @@ h2 {
 }
 
 h3 {
-  color: #000000
-  font-size: 1.75em;
+  color: #000000 font-size: 1.75em;
   font-weight: 400;
 }
 
@@ -279,10 +277,7 @@ div {
   padding-top: 40px;
 }
 
-#vocablab
-
-
-#footer.container {
+#vocablab #footer.container {
   background: #e4e8f0;
   border-top: 2px solid #ffffff;
   display: inline-block;
@@ -687,7 +682,7 @@ Medium devices (640px and larger)
     display: block;
   }
 
-  #hero h1{
+  #hero h1 {
     margin-top: 30px;
   }
 
@@ -715,52 +710,71 @@ Medium devices (640px and larger)
 Small devices (640px)
 ================================= */
 @media only screen and (min-width: 640px) {
-  .row::after {
-    content: '';
-    clear: both;
-    display: table;
-  }
-
-  @media only screen and (min-width: 640px) {
-    [class*='col-'] {
-      float: left;
-      padding: 10px;
+    .row::after {
+      content: '';
+      clear: both;
+      display: table;
     }
 
-  /* ==============================
-Large devices (1024px or larger)
-================================= */
-  @media only screen and (min-width: 1024px) {
-    .container {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-  @media only screen and (min-width: 1024px) {
-      .row::after {
-        content: '';
-        clear: both;
-        display: table;
+@media only screen and (min-width: 640px) {
+      [class*='col-'] {
+        float: left;
+        padding: 10px;
       }
 
-  @media only screen and (min-width: 1024px) {
-        .col-lg-6 {
-          width: 50%;
-          margin: auto;
+      /* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+        .container {
+          max-width: 1200px;
+          margin-left: auto;
+          margin-right: auto;
         }
 
- @media only screen and (min-width: 1024px) {
-          [class*='col-'] {
-            float: left;
-            padding: 10px;
+@media only screen and (min-width: 1024px) {
+          .row::after {
+            content: '';
+            clear: both;
+            display: table;
           }
-    /* ==============================
+
+@media only screen and (min-width: 1024px) {
+            .col-lg-6 {
+              width: 50%;
+              margin: auto;
+            }
+
+@media only screen and (min-width: 1024px) {
+              [class*='col-'] {
+                float: left;
+                padding: 10px;
+              }
+
+              /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-    @media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1440px) {}
 
-    /* ==============================
+              /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-    @media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1920px) {}
+
+/* 2340x1080 pixels at 476ppi */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {}
+
+/* 2532x1170 pixels at 460ppi */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {}
+
+/* 2778x1284 pixels at 458ppi */
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {}
+
+/* 1792x828px at 326ppi */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {}
+
+/* 2436x1125px at 458ppi */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {}
+
+/* 2688x1242px at 458ppi */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {}
