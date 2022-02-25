@@ -705,6 +705,7 @@ Medium devices (640px and larger)
     display: table;
     clear: both;
   }
+}
 
   /* ==============================
 Small devices (640px)
@@ -759,7 +760,12 @@ X-large devices (1440px or larger)
               /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-@media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1920px) {
+
+  #hero h1 {
+    margin-top: 40px;
+  }
+}
 
 /* 2340x1080 pixels at 476ppi */
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {}
