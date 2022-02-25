@@ -149,7 +149,7 @@ BUTTON STYLING
 }
 
 .button.contact {
-  background-color: transparent;
+  background-color: #c3a8d6;
   color: #000000;
   text-transform: uppercase;
   border: none;
@@ -159,7 +159,7 @@ BUTTON STYLING
 }
 
 .button.contact:hover {
-  background-color: #000000;
+  background-color: #936285;
   color: #ffffff;
 }
 
