@@ -283,8 +283,6 @@ nav > ul > li > a:active {
 
 .navtoggle.responsive li {
   display: block;
-  padding: 10px 0;
-  border-top: 1px solid #3faa64;
   text-align: center;
 }
 
