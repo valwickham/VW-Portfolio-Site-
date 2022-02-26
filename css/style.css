@@ -365,22 +365,21 @@ main {
   width: 100%;
 }
 
-
-
-#hero h1 {
+/* ABOUT=========================================================== */
+#about-hero {
+  background-color: #f3f1f0;
+  padding: 20px;
+  display: inline-block;
+  width: 100%;
   text-align: center;
-  padding-top: 0px;
-  margin-top: 20px;
 }
 
-#mystory .container {
-  padding-bottom: 25px;
-  border-bottom: 1px solid #4a4a4a;
-  padding-top: 20px;
+#about-hero .container {
+  text-align: left;
 }
 
-#getinked {
-  padding-top: 40px;
+#about-page .vertical-top {
+  flex-direction: row;
 }
 
 
