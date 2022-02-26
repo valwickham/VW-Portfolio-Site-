@@ -150,48 +150,57 @@ BUTTON STYLING
 }
 
 .button.readmore {
-  background-color: #e4e8f0;
-  color: #000000;
-  border: 2px solid #e4e8f0;
-  border-bottom: 2px solid #000000;
+  display: inline-block;
+  background-color: #b9e49b;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border-bottom: 2px solid #3faa64;
+  margin: 10px 0;
+  transition: 0.2s opacity;
 }
 
 .button.readmore:hover {
-  background-color: #000000;
-  color: #ffffff;
-  text-transform: none;
-  border: 2px solid #ffffff;
-  border-bottom: 2px solid #000000;
+  opacity: 0.8;
+  text-decoration: none;
 }
 
 .button.seebehance {
-  background-color: #e4e8f0;
-  color: #000000;
-  border: 2px solid #e4e8f0;
-  border-bottom: 2px solid #000000;
+  display: inline-block;
+  background-color: #b9e49b;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border-bottom: 2px solid #3faa64;
+  margin: 10px 0;
+  transition: 0.2s opacity;
 }
 
 .button.seebehance:hover {
-  background-color: #000000;
-  color: #ffffff;
-  text-transform: none;
-  border: 2px solid #ffffff;
-  border-bottom: 2px solid #000000;
+  opacity: 0.8;
+  text-decoration: none;
 }
 
 .button.downloadCV {
-  background-color: #e4e8f0;
-  color: #000000;
-  border: 2px solid #e4e8f0;
-  border-bottom: 2px solid #000000;
+  display: inline-block;
+  background-color: #b9e49b;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border-bottom: 2px solid #3faa64;
+  margin: 10px 0;
+  transition: 0.2s opacity;
 }
 
 .button.downloadCV:hover {
-  background-color: #000000;
-  color: #ffffff;
-  text-transform: none;
-  border: 2px solid #ffffff;
-  border-bottom: 2px solid #000000;
+  opacity: 0.8;
+  text-decoration: none;
 }
 
 /* =================================================
