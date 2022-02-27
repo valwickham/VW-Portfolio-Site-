@@ -214,6 +214,7 @@ BUTTON STYLING
     cursor: pointer;
     z-index: 0;
     border-radius: 10px;
+    position: relative;
 }
 
 .button.glow-on-hover:before {
@@ -228,7 +229,7 @@ BUTTON STYLING
     height: calc(100% + 4px);
     animation: glowing 20s linear infinite;
     opacity: 0;
-    position: relative;
+    position: absolute;
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
 }
@@ -248,7 +249,7 @@ BUTTON STYLING
 .button.glow-on-hover:after {
     z-index: -1;
     content: '';
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     background: #111;
