@@ -207,13 +207,9 @@ BUTTON STYLING
 /* =================================================
 ZOOMING ON IMAGE
 ================================================= */
-img.one {
-    -webkit-transform: translate(200px, 50px);  /* Chrome, Safari, Opera */
-       -moz-transform: translate(200px, 50px);  /* Firefox */
-        -ms-transform: translate(200px, 50px);  /* IE 9 */
-            transform: translate(200px, 50px);  /* Standard syntax */
+img.one:hover {
+transform: scale(1.3);
 }
-
 
 /* =================================================
 SEPARATING LINE: HORIZONTAL
