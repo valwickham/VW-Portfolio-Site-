@@ -207,18 +207,12 @@ BUTTON STYLING
 /* =================================================
 ZOOMING ON IMAGE
 ================================================= */
-
-.thumbnail:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
+img {
+    -webkit-transform: translate(200px, 50px);  /* Chrome, Safari, Opera */
+       -moz-transform: translate(200px, 50px);  /* Firefox */
+        -ms-transform: translate(200px, 50px);  /* IE 9 */
+            transform: translate(200px, 50px);  /* Standard syntax */
 }
-
-
 
 
 /* =================================================
