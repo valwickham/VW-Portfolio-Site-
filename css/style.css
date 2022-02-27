@@ -216,7 +216,7 @@ BUTTON STYLING
     border-radius: 10px;
 }
 
-.glow-on-hover:before {
+.button.glow-on-hover:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -233,19 +233,19 @@ BUTTON STYLING
     border-radius: 10px;
 }
 
-.glow-on-hover:active {
+.button.glow-on-hover:active {
     color: #000
 }
 
-.glow-on-hover:active:after {
+.button.glow-on-hover:active:after {
     background: transparent;
 }
 
-.glow-on-hover:hover:before {
+.button.glow-on-hover:hover:before {
     opacity: 1;
 }
 
-.glow-on-hover:after {
+.button.glow-on-hover:after {
     z-index: -1;
     content: '';
     position: absolute;
