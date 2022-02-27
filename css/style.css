@@ -207,7 +207,7 @@ BUTTON STYLING
 /* =================================================
 ZOOMING ON IMAGE
 ================================================= */
-img {
+img.one {
     -webkit-transform: translate(200px, 50px);  /* Chrome, Safari, Opera */
        -moz-transform: translate(200px, 50px);  /* Firefox */
         -ms-transform: translate(200px, 50px);  /* IE 9 */
