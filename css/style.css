@@ -668,6 +668,12 @@ FOOTER STYLING
     text-decoration-thickness: 3px;
   }
 
+  .scenery {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
   .background {
     width: 800px;
     margin: 30px auto;
