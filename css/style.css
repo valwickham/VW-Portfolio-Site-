@@ -95,9 +95,10 @@ IMAGE STYLING
     width: 70%;
   }
 
-  .logo {
-    max-width: 100px;
-  }
+.about.me img {
+  max-width: 300px;
+  padding: 15px;
+}
 
   /* =================================================
 LINK STYLING
@@ -887,11 +888,6 @@ FOOTER STYLING
       flex-direction: row;
     }
 
-    #plutopay-page [class*='col-md-'] {
-      float: left;
-      padding: 0 25px;
-    }
-  }
 
   /* ==============================
   Large devices (1024px or larger)
@@ -961,11 +957,6 @@ FOOTER STYLING
       justify-content: center;
     }
 
-    #plutopay-page [class*='col-lg-'] {
-      float: left;
-      padding: 0 25px;
-    }
-  }
 
   /* ==============================
   X-large devices (1440px or larger)
