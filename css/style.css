@@ -893,100 +893,344 @@ Medium devices (640px and larger)
   /* ==============================
 Large devices (1024px or larger)
 ================================= */
-  @media only screen and (min-width: 1024px) {
-    header {
-      text-align: unset;
-      padding: 10px;
-      vertical-align: middle;
-    }
+@media only screen and (min-width: 771px) {
+/* tells browser that when screen is 640px and above it needs to use this styling */
+header {
+  text-align: unset;
+  padding: 20px 0 13px;
+}
 
-    main {
-      font-size: 20px;
-    }
+nav {
+  width: auto; /* won't take up full screen, only as wide as its content */
+  float: right; /* this ensures that nav floats to the right of the logo */
+  margin-top: 4px;
+}
 
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      text-align: left;
-    }
+body {
+  font-size: 18px; /* the font size for headers will update automatically bc of em values */
+}
 
-    .col-lg-4 {
-      width: 33.33%;
-    }
+#hero span {
+  display: block;
+}
 
-    .col-lg-5 {
-      width: 41.66%;
-    }
+#story .row {
+  border-bottom: unset;
+  padding: 0;
+}
 
-    .col-lg-7 {
-      width: 58.33%;
-    }
+.col-md-6 {
+  width: 50%;
+}
 
-    .col-lg-8 {
-      width: 66.66%;
-    }
+.logo {
+  max-width: 250px;
+  max-height: 64px;
+  width: auto;
+}
 
-    nav {
-      display: inline-block;
-      font-size: 20px;
-    }
+nav > ul > li {
+  display: inline-block;
+}
 
-    nav>ul {
-      margin: 1em 0;
-    }
+/* this makes the list items show up next to each other; we moved it here because we don't want small screens to have these show up side by side */
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
 
-    nav>ul>li {
-      display: inline-block;
-    }
+.navtoggle li:last-child {
+  display: none;
+}
 
-    .navtoggle li:not(:last-child) {
-      display: inline-block;
-    }
+nav > ul {
+  list-style-type: none;
 
-    .navtoggle li:last-child {
-      display: none;
-    }
+  /* padding: 0; */
+  margin: 1em 0;
 
-    .logo {
-      max-width: 125px;
-      padding-top: 10px;
-    }
+  /* still want margins */
+}
 
-    .vertical-center {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+main {
+  padding-top: 120px;
+}
 
-    #plutopay-page [class*='col-lg-'] {
-      float: left;
-      padding: 0 25px;
-    }
-  }
+#story,
+p {
+  margin-top: 0;
+}
 
-  /* ==============================
-X-large devices (1440px or larger)
-================================= */
-  @media only screen and (min-width: 1440px) {
-    nav {
-      width: auto;
-      float: right;
-    }
+.container-pic {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    main {
-      font-size: 20px;
-    }
+#profile-pic {
+  max-width: 600px;
+  height: auto;
+}
 
-    h1 {
-      font-size: 3em;
-    }
+#userstory {
+  font-weight: 700;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+}
 
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+@media only screen and (min-width: 1024px) {
+header {
+  text-align: unset;
+  padding: 20px 0 13px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
 
-    .logo {
-      max-width: 150px;
-    }
-  }
+.col-lg-1 {
+  width: 100%;
+  float: left;
+}
+
+.col-lg-3 {
+  width: 25%;
+  float: left;
+}
+
+.col-lg-9 {
+  width: 75%;
+  float: left;
+}
+
+.col-lg-7 {
+  width: 60%;
+  float: left;
+}
+
+.col-lg-5 {
+  width: 40%;
+  float: left;
+}
+
+.col-lg-6 {
+  width: 50%;
+  float: left;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-pic {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact .container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#story .row {
+  border-bottom: unset;
+  padding-bottom: 0;
+}
+
+#skills .row {
+  border-bottom: unset;
+  padding-bottom: 0;
+}
+
+#tools .row {
+  border-bottom: unset;
+  padding-bottom: 0;
+}
+
+body {
+  font-size: 18px;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.logo {
+  max-width: 250px;
+  max-height: 64px;
+  width: auto;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+/* this makes the list items show up next to each other */
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
+nav > ul {
+  list-style-type: none;
+
+  /* padding: 0; */
+  margin: 1em 0;
+}
+
+main {
+  padding-top: 120px;
+}
+
+#story {
+  margin: auto;
+}
+
+#picrow {
+  display: flex;
+  align-items: center;
+}
+
+#userstory {
+  font-weight: 700;
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+}
+
+@media only screen and (min-width: 1441px) {
+header {
+  text-align: unset;
+  padding: 20px 0 13px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+.col-xl-3 {
+  width: 25%;
+  float: left;
+}
+
+.col-xl-9 {
+  width: 75%;
+  float: left;
+}
+
+.col-xl-7 {
+  width: 60%;
+  float: left;
+}
+
+.col-xl-5 {
+  width: 40%;
+  float: left;
+}
+
+.col-xl-6 {
+  width: 50%;
+  float: left;
+}
+
+.container {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-pic {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact .container {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#style .container,
+#iterate .container,
+#design .container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#story .row {
+  border-bottom: unset;
+  padding-bottom: 0;
+}
+
+#skills .row {
+  border-bottom: unset;
+  padding-bottom: 0;
+}
+
+#tools .row {
+  border-bottom: unset;
+  padding-bottom: 0;
+}
+
+body {
+  font-size: 18px;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.logo {
+  max-width: 250px;
+  max-height: 64px;
+  width: auto;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+/* this makes the list items show up next to each other */
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
+nav > ul {
+  list-style-type: none;
+
+  /* padding: 0; */
+  margin: 1em 0;
+}
+
+main {
+  padding-top: 120px;
+}
+
+#userstory {
+  font-weight: 700;
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+}
+
+[class*="col-"] {
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+}
