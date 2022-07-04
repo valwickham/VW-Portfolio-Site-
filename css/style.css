@@ -831,19 +831,18 @@ svg .cls-26 {
 /* ==============================
   Medium devices (640px and larger)
   ================================= */
-
-  @media only screen and (min-width: 640px) {
+@media only screen and (min-width: 640px) {
   header {
     text-align: unset;
     padding-left: 50px;
     vertical-align: middle;
   }
 
-.logo {
-  width:50%!important;
-  margin:auto;
-  padding:auto;
-}
+  .logo {
+    width: 50% !important;
+    margin: auto;
+    padding: auto;
+  }
 
   h1 {
     font-size: 2.25em;
@@ -857,11 +856,11 @@ svg .cls-26 {
     margin-top: 0;
   }
 
-  nav > ul {
+  nav>ul {
     margin: 1em 0;
   }
 
-  nav > ul > li {
+  nav>ul>li {
     list-style-type: none;
     display: inline-block;
   }
@@ -910,7 +909,6 @@ svg .cls-26 {
   /* ==============================
   Large devices (1024px or larger)
   ================================= */
-
   @media only screen and (min-width: 1024px) {
     header {
       text-align: unset;
