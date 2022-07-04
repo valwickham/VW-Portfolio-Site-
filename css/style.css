@@ -82,6 +82,12 @@ img {
   max-width: 100px;
 }
 
+.logo {
+  max-width: 125px;
+  float: left;
+  position: relative;
+}
+
 img.one {
   height: 100%;
   width: 100%;
@@ -526,14 +532,7 @@ footer {
   position: relative;
 }
 
-.logo {
-  max-width: 125px;
-  font-size: 1.5em;
-  font-weight: 600;
-  line-height: 2.5em;
-  float: left;
-  position: relative;
-}
+
 
 div.social_icons, li.social {
   text-decoration: none;
