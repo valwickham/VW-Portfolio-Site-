@@ -528,7 +528,6 @@ footer {
 
 .logo {
   max-width: 150px;
-  min-width: 250px;
   font-size: 1.5em;
   font-weight: 600;
   line-height: 2.5em;
@@ -958,7 +957,6 @@ svg .cls-26 {
 
     .logo {
       max-width: 125px;
-      padding-top: 10px;
     }
 
     .vertical-center {
