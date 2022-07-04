@@ -16,7 +16,7 @@ body {
 
 header {
   background-color: #f7cff2;
-  padding: 10px 4px;
+  padding: 0px 4px;
   box-shadow: 0 8px 5px 0 rgb(179, 158, 181);
   position: fixed;
   display: inline;
@@ -904,7 +904,6 @@ svg .cls-26 {
   @media only screen and (min-width: 1024px) {
     header {
       text-align: unset;
-      padding: 10px;
       vertical-align: middle;
     }
 
