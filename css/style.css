@@ -909,6 +909,12 @@ svg .cls-26 {
     vertical-align: middle;
   }
 
+.logo {
+  width:50%!important;
+  margin:auto;
+  padding:auto;
+}
+
   h1 {
     font-size: 2.25em;
     font-weight: 700;
