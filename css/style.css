@@ -831,77 +831,7 @@ svg .cls-26 {
 /* ==============================
   Medium devices (640px and larger)
   ================================= */
-@media only screen and (min-width: 640px) {
-  header {
-    text-align: unset;
-    padding-left: 50px;
-    vertical-align: middle;
-  }
-
-  h1 {
-    font-size: 2.25em;
-    font-weight: 700;
-  }
-
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 0;
-  }
-
-  nav>ul {
-    margin: 1em 0;
-  }
-
-  nav>ul>li {
-    list-style-type: none;
-    display: inline-block;
-  }
-
-  .navtoggle li:not(:last-child) {
-    display: inline-block;
-  }
-
-  .navtoggle li:last-child {
-    display: none;
-  }
-
-  main {
-    padding-top: 99px;
-    font-size: 18px;
-    margin-top: 80px;
-  }
-
-  #hero {
-    padding: 20px 50px;
-  }
-
-  .col-md-4 {
-    width: 33.33%;
-  }
-
-  .col-md-6 {
-    width: 50%;
-  }
-
-  .col-md-8 {
-    width: 66.66%;
-  }
-
-  #about-page h3 {
-    margin-top: 0;
-  }
-
-  .vertical-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-  }
-
-  /* ==============================
-  Large devices (1024px or larger)
-  ================================= */
+  
   @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
@@ -977,6 +907,9 @@ svg .cls-26 {
     flex-direction: row;
   }
 
+  /* ==============================
+  Large devices (1024px or larger)
+  ================================= */
 
   @media only screen and (min-width: 1024px) {
     header {
