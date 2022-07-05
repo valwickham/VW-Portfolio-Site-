@@ -954,8 +954,7 @@ svg .cls-26 {
     }
 
     .logo {
-      max-width: 100px;
-      width: auto;
+      max-width: 110px;
     }
 
     .vertical-center {
@@ -987,6 +986,6 @@ svg .cls-26 {
       }
 
       .logo {
-        max-width: 100px;
+        max-width: 110px;
       }
     }
