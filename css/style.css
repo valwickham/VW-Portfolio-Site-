@@ -893,6 +893,10 @@ svg .cls-26 {
     flex-direction: row;
   }
 
+  .logo {
+    max-width: 110px;
+  }
+
   /* ==============================
   Large devices (1024px or larger)
   ================================= */
@@ -956,7 +960,7 @@ svg .cls-26 {
     }
 
     .logo {
-      max-width: 125px;
+      max-width: 110px;
     }
 
     .vertical-center {
@@ -989,6 +993,6 @@ svg .cls-26 {
       }
 
       .logo {
-        max-width: 125px;
+        max-width: 110px;
       }
     }
