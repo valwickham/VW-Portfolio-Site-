@@ -331,10 +331,6 @@ LAYOUT STYLING
   display: table;
 }
 
-#myNavtoggle {
-  position: relative;
-  margin-top: 20px;
-}
 
 nav>ul {
   list-style-type: none;
