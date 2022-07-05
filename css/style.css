@@ -79,11 +79,11 @@ img {
 }
 
 .logo {
-  max-width: 125px;
+  max-width: 100px;
 }
 
 .logo {
-  max-width: 125px;
+  max-width: 100px;
   float: left;
   position: relative;
 }
@@ -954,7 +954,7 @@ svg .cls-26 {
     }
 
     .logo {
-      max-width: 110px;
+      max-width: 100px;
     }
 
     .vertical-center {
@@ -986,6 +986,6 @@ svg .cls-26 {
       }
 
       .logo {
-        max-width: 110px;
+        max-width: 100px;
       }
     }
