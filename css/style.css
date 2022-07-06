@@ -371,7 +371,7 @@ nav>ul>li>a:active {
 }
 
 .navtoggle.responsive li {
-  display: block;
+  display: inline-block;
 }
 
 .navtoggle.responsive nav {
@@ -379,7 +379,7 @@ nav>ul>li>a:active {
 }
 
 .navtoggle.responsive li {
-  display: block;
+  display: inline-block;
   text-align: center;
 }
 
@@ -868,7 +868,7 @@ svg .cls-26 {
   }
 
   .navtoggle.responsive li {
-    display: block;
+    display: inline-block;
     padding: 10px 0;
     border-top: 1px solid rgba(255, 127, 80, 0.5);
   }
@@ -983,7 +983,7 @@ svg .cls-26 {
     }
 
     .navtoggle.responsive li {
-      display: block;
+      display: inline-block;
       padding: 10px 0;
       border-top: 1px solid rgba(255, 127, 80, 0.5);
     }
@@ -1024,7 +1024,7 @@ svg .cls-26 {
       }
 
       .navtoggle.responsive li {
-        display: block;
+        display: inline-block;
         padding: 10px 0;
         border-top: 1px solid rgba(255, 127, 80, 0.5);
       }
