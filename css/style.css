@@ -331,7 +331,6 @@ LAYOUT STYLING
   display: table;
 }
 
-
 nav>ul {
   list-style-type: none;
   padding: 0;
@@ -526,8 +525,6 @@ footer {
 .parent {
   position: relative;
 }
-
-
 
 div.social_icons, li.social {
   text-decoration: none;
@@ -834,7 +831,7 @@ svg .cls-26 {
   h1 {
     font-size: 2.25em;
     font-weight: 700;
-}
+  }
 
   nav {
     width: auto;
@@ -864,6 +861,20 @@ svg .cls-26 {
     right: 0;
     top: 2px;
     font-size: 20px;
+  }
+
+  .navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+
+  .navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 127, 80, 0.5);
+  }
+
+  .navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
   }
 
   main {
@@ -917,12 +928,12 @@ svg .cls-26 {
       font-size: 20px;
     }
 
-  .navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
-}
+    .navtoggle li .icon {
+      position: absolute;
+      right: 0;
+      top: 2px;
+      font-size: 20px;
+    }
 
     .container {
       max-width: 1200px;
@@ -967,6 +978,20 @@ svg .cls-26 {
       display: none;
     }
 
+    .navtoggle.responsive nav {
+      padding: 24px 0 0;
+    }
+
+    .navtoggle.responsive li {
+      display: block;
+      padding: 10px 0;
+      border-top: 1px solid rgba(255, 127, 80, 0.5);
+    }
+
+    .navtoggle.responsive li:last-child {
+      padding: 0 0 10px;
+    }
+
     .logo {
       max-width: 100px;
     }
@@ -987,12 +1012,26 @@ svg .cls-26 {
         margin-top: 20px;
       }
 
-    .navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
-}
+      .navtoggle li .icon {
+        position: absolute;
+        right: 0;
+        top: 2px;
+        font-size: 20px;
+      }
+
+      .navtoggle.responsive nav {
+        padding: 24px 0 0;
+      }
+
+      .navtoggle.responsive li {
+        display: block;
+        padding: 10px 0;
+        border-top: 1px solid rgba(255, 127, 80, 0.5);
+      }
+
+      .navtoggle.responsive li:last-child {
+        padding: 0 0 10px;
+      }
 
       main {
         font-size: 20px;
