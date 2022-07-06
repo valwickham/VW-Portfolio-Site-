@@ -859,6 +859,13 @@ svg .cls-26 {
     display: none;
   }
 
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+  }
+
   main {
     padding-top: 99px;
     font-size: 18px;
@@ -909,6 +916,13 @@ svg .cls-26 {
     main {
       font-size: 20px;
     }
+
+  .navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
 
     .container {
       max-width: 1200px;
@@ -972,6 +986,13 @@ svg .cls-26 {
         float: right;
         margin-top: 20px;
       }
+
+    .navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
 
       main {
         font-size: 20px;
