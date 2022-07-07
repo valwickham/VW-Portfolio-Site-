@@ -82,12 +82,6 @@ img {
   max-width: 100px;
 }
 
-.logo {
-  max-width: 100px;
-  float: left;
-  position: relative;
-}
-
 img.one {
   height: 100%;
   width: 100%;
