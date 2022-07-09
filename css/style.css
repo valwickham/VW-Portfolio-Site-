@@ -397,7 +397,7 @@ nav>ul>li>a:active {
 }
 
 #index-hero {
-  background-color: #f3f1f0;
+  background-color: #ffffff;
   padding: 30px;
   display: inline-block;
   width: 100%;
@@ -417,7 +417,7 @@ main {
 }
 
 #work {
-  background-color: #f3f1f0;
+  background-color: #ffffff;
 }
 
 .no-top-space {
@@ -461,7 +461,7 @@ main {
 
 /* ABOUT=========================================================== */
 #about-hero {
-  background-color: #f3f1f0;
+  background-color: #ffffff;
   padding: 20px;
   display: inline-block;
   width: 100%;
@@ -570,7 +570,7 @@ p.copyright {
 
 /* ABOUT=========================================================== */
 #about-hero {
-  background-color: #f3f1f0;
+  background-color: #ffffff;
   padding: 20px;
   display: inline-block;
   width: 100%;
@@ -586,7 +586,7 @@ p.copyright {
 }
 
 #hero {
-  background-color: #e4e8f0;
+  background-color: #ffffff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
