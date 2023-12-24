@@ -100,7 +100,8 @@ img.two {
 .badge {
             display: inline-block;
             margin: 10px;
-            max-width: 300px;
+            width: 100px;
+            height: 100px;
             padding: 15px;
 }
 
