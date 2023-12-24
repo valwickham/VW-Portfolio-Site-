@@ -303,8 +303,8 @@ hr.line1 {
 .separator-line {
             width: 100%;
             height: 1px;
-            background-color: #ccc;
-            margin: 20px 0; 
+            background-color: #000000;
+            margin: 20px 0;
         }
 
 /* =================================================
