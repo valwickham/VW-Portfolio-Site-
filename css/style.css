@@ -306,6 +306,12 @@ hr.line1 {
             margin: 20px 0;
         }
 
+.colored-div {
+                    width: 200px;
+                    height: 200px;
+                    background-color: #f2f5f6;
+                }
+
 /* =================================================
 LAYOUT STYLING
 ================================================= */
