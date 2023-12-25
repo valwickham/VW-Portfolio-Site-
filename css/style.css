@@ -307,9 +307,10 @@ hr.line1 {
         }
 
 .colored-div {
-                    width: 200px;
-                    height: 200px;
-                    background-color: #f2f5f6;
+  padding: 0 10px;
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: #f2f5f6;
                 }
 
 /* =================================================
