@@ -44,7 +44,10 @@
     </div>
 </main>
 <body>
-<img src="GovCIO.Projects.jpg" alt="Adobe XD Design">
+<picture>
+  <source class="one" srcset="img/getinked/GovCIO.Projects.png" alt="Adobe XD Design">>
+  <img class="one" src="img/getinked/GovCIO.Projects.png.png" alt="Adobe XD Design">
+</picture>
 </body>
 <footer id="contact">
   <div class="container">
